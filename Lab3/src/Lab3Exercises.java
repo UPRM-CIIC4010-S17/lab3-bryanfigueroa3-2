@@ -13,7 +13,7 @@ public class Lab3Exercises {
 		JFrame myFrame = new JFrame("Bryan Figueroa");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocation((screenWidth/2)-100, (screenHeight/2)-100);
-		myFrame.setSize(200, 200);
+		myFrame.setSize(300, 300);
         MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
